@@ -1,5 +1,5 @@
 """
-Author: <YOUR REAL FIRST AND LAST NAME>
+Author: <Eseosa Eweka>
 Assignment: #1
 """
 
@@ -15,6 +15,6 @@ Assignment: #1
 
 # Step g: Check if any friend's total >= 120
 
-# Step h: User input to look up a friend
+# Step h: User input to lookup up a friend
 
 # Step i: Friend with highest and lowest total workout minutes
