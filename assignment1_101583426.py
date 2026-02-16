@@ -20,7 +20,7 @@ workout_stats = {
 
 
 # Step d: Calculate total workout minutes and add new key-value pairs
-for friend, workouts in workout_stats.items():
+for friend, workouts in list(workout_stats.items()):
     total_minutes = sum(workouts)
     workout_stats[f"{friend}_Total"] = total_minutes
 
@@ -53,7 +53,7 @@ for friend in ["Alex", "Jamie", "Taylor"]:
 
 
 # Step h: User input lookup
-name = input("\nEnter a friend's name: ")
+name = input("\nEnter a friend's name: ").capitalize()
 
 if name in workout_stats:
     yoga, running, lifting = workout_stats[name]
